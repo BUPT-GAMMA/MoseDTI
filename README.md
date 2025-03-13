@@ -8,7 +8,7 @@ The official implementation of AAAI25 paper "Blend the Separated: Mixture of Syn
 ![image](https://github.com/user-attachments/assets/5400104b-7b78-4f35-8852-97a8971a86bb)
 
 ## Usage
-1. Download large files. Put [drkg.tsv](https://drive.google.com/file/d/1-pRYRtgcNFqxeL3Q9ZgxIU5rnJbfKB8M/view?usp=sharing) into var_data/ and put [kge model](https://drive.google.com/file/d/1_RCRrHJBosWycpqzxXxzrmJYCGWaJfc8/view?usp=sharing) into var_models/. Configure your conda environment according to requirements.txt.
+1. Download large files. Put [drkg.tsv](https://drive.google.com/file/d/1-pRYRtgcNFqxeL3Q9ZgxIU5rnJbfKB8M/view?usp=sharing) into var_data/ and put [kge model](https://drive.google.com/file/d/1_RCRrHJBosWycpqzxXxzrmJYCGWaJfc8/view?usp=sharing) into a new folder var_models/. Configure your conda environment according to requirements.txt.
 2. Execute the split_data.py to split the data as cross-validation splits.
 3. Train and evaluate model from a pretrained KGE model: 
    ```
