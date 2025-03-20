@@ -17,3 +17,13 @@ The official implementation of AAAI25 paper "Blend the Separated: Mixture of Syn
    You can also train the KGE model yourself without the --load_kge_model argument. You can also save the model components with the --save and load them with the --load* arguments.
 
 If there are any issues or cooperation intentions, please contact zhaijojo@bupt.edu.cn.
+
+## Citation
+```
+@inproceedings{zhai2024mosedti,
+    title={Blend the Separated: Mixture of Synergistic Experts for Data-Scarcity Drug-Target Interaction Prediction},
+    author={Xinlong, Zhai and Chunchen, Wang and Ruijia, Wang and Jiazheng, Kang and Shujie, Li and Boyu, Chen and Tengfei, Ma and Zikai, Zhou and Cheng, Yang and Chuan, Shi},
+    booktitle={Association for The Advancement of Artificial Intelligence},
+    year={2025}
+}
+```
