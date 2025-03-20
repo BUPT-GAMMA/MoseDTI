@@ -20,7 +20,7 @@ If there are any issues or cooperation intentions, please contact zhaijojo@bupt.
 
 ## Citation
 ```
-@inproceedings{zhai2024mosedti,
+@inproceedings{zhai2025mosedti,
     title={Blend the Separated: Mixture of Synergistic Experts for Data-Scarcity Drug-Target Interaction Prediction},
     author={Xinlong, Zhai and Chunchen, Wang and Ruijia, Wang and Jiazheng, Kang and Shujie, Li and Boyu, Chen and Tengfei, Ma and Zikai, Zhou and Cheng, Yang and Chuan, Shi},
     booktitle={Association for The Advancement of Artificial Intelligence},
