@@ -1,7 +1,7 @@
 # MoseDTI
 The official implementation of AAAI25 paper "Blend the Separated: Mixture of Synergistic Experts for Data-Scarcity Drug-Target Interaction Prediction".
 
-📢News：We have provided the whole dataset and the pretrained kge model (a part of our whole model, which can be reused for every dataset as they use the same KG).
+2025/3 📢News：We have provided the whole dataset and the pretrained kge model (a part of our whole model, which can be reused for every dataset as they use the same KG).
 
 [Read the paper](http://www.shichuan.org/doc/187.pdf)
 
