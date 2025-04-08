@@ -1,14 +1,15 @@
 # MoseDTI
 The official implementation of AAAI25 paper "Blend the Separated: Mixture of Synergistic Experts for Data-Scarcity Drug-Target Interaction Prediction".
 
-2025/3 📢News：We have provided the whole dataset and the pretrained kge model (a part of our whole model, which can be reused for every dataset as they use the same KG).
+2025/4 📢 News：For easier env configuration, we have separately provided the environment_conda_env_export.yml output by "conda env export" and requirements_pip_freeze.txt output by "pip freeze".
+2025/3 📢 News：We have provided the whole dataset and the pretrained kge model (a part of our whole model, which can be reused for every dataset as they use the same KG).
 
 [Read the paper](http://www.shichuan.org/doc/187.pdf)
 
 ![image](https://github.com/user-attachments/assets/5400104b-7b78-4f35-8852-97a8971a86bb)
 
 ## Usage
-1. Download large files. Put [drkg.tsv](https://drive.google.com/file/d/1-pRYRtgcNFqxeL3Q9ZgxIU5rnJbfKB8M/view?usp=sharing) into var_data/ and put [kge model](https://drive.google.com/file/d/1_RCRrHJBosWycpqzxXxzrmJYCGWaJfc8/view?usp=sharing) into a new folder var_models/. Configure your conda environment according to requirements.txt.
+1. Download large files. Put [drkg.tsv](https://drive.google.com/file/d/1-pRYRtgcNFqxeL3Q9ZgxIU5rnJbfKB8M/view?usp=sharing) into var_data/ and put [kge model](https://drive.google.com/file/d/1_RCRrHJBosWycpqzxXxzrmJYCGWaJfc8/view?usp=sharing) into a new folder var_models/. Configure your conda environment according to requirements.txt output by "conda list --export", or the environment_conda_env_export.yml output by "conda env export" and requirements_pip_freeze.txt output by "pip freeze".
 2. Execute the split_data.py to split the data as cross-validation splits.
 3. Train and evaluate model from a pretrained KGE model: 
    ```
