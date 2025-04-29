@@ -16,7 +16,7 @@ The official implementation of AAAI25 paper "Blend the Separated: Mixture of Syn
    ```
    python kge/std_main.py --dataset ago_10shots_0 --device 0 --load_kge_model 2024-04-28_10_01_40.24__kgeSLHstd_main.py--save--dataset__a-10--device__6--gate__kge.pth
    ```
-   You can also train the KGE model yourself without the --load_kge_model argument. You can also save the model components with the --save and load them with the --load* arguments.
+   You can also train the KGE model yourself without the --load_kge_model argument. Before that, you should first split the drkg.tsv to train, valid and test.tsv manually. You can also save the model components with the --save and load them with the --load* arguments.
 
 If there are any issues or cooperation intentions, please contact zhaijojo@bupt.edu.cn.
 
